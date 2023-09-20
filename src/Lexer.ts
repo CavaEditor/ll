@@ -28,7 +28,6 @@ export default class Lexer{
         const tokenTypesValuess = Object.values(tokenTypeList);
         for(let i = 0; i < tokenTypesValuess.length; i++) {
             const tokenType = tokenTypesValuess[i];
-            console.log(tokenTypesValuess[i]);
             // ^ = inceputul liniei de cod
             const regex = new RegExp('^' + tokenType.regex);
             const result = this.code.substr(this.pos).match(regex);
