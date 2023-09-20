@@ -1,0 +1,18 @@
+{
+  "name": "leraslanguage",
+  "version": "1.0.0",
+  "description": "my first programming language! wish me luck :3",
+  "main": "index.ts",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Lera",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
